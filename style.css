@@ -1,249 +1,32 @@
-
-<!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <title>Carol GADS Design</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="imgs/perfil.ico" type="image/x-icon" />
-    <script type="text/javascript">var submitted=false;</script>
-  </head>
-  <body>
-    <nav class="menu navbar">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle navbar-btn" data-toggle="collapse" data-target="#myNavbar">
-            <span class="icon-bar navbar-icon-bar"></span>
-            <span class="icon-bar navbar-icon-bar"></span>
-            <span class="icon-bar navbar-icon-bar"></span>                        
-          </button>
-          <a class="navbar-brand" href="#">
-            <img class="brand-logo" src="imgs/perfil.ico">
-          </a>
-        </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-          <ul class="nav navbar-nav">
-            <li><a class="menu-option" href="#">HOME</a></li>
-            <li><a class="menu-option" href="#whatido">O QUE EU FAÇO</a></li>
-            <li><a class="menu-option" href="#whoami">QUEM SOU EU</a></li>
-            <li><a class="menu-option" href="#portfolio">PORTFÓLIO</a></li>
-            <li><a class="menu-option" href="#contact">CONTATO</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
-
-      <!-- Wrapper for slides -->
-      <div class="carousel-inner">
-        <div class="item active">
-          <img src="imgs/banner_carol_2.jpg" class="img-banner">
-          <div class="carousel-caption">
-            <h3>Design Gráfica</h3>
-            <p>Conheça meus trabalhos!</p>
-          </div>
-        </div>
-
-        <div class="item">
-          <img src="imgs/revista_1.jpg" class="img-banner">
-          <div class="carousel-caption">
-            <h3 class="red-color">Revistinha Carol</h3>
-          </div>
-        </div>
-      
-        <div class="item">
-          <img src="imgs/vassionne_logo.jpg" class="img-banner">
-          <div class="carousel-caption red-color">
-            <h3>Vassionné</h3>
-            <p>Escola de arte</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Left and right controls -->
-      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#myCarousel" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-    <div class="section-with-bg">
-      <div id="whatido" class="container padding">
-        <h2 class="section-title">O QUE EU FAÇO</h2>
-        <div class="row">
-          <div class="col-xs-12 col-sm-6 col-md-3 padding-top">
-            <div class="container-image">
-              <img src="http://via.placeholder.com/600x600" class="image">
-              <div class="overlay">
-                <div class="text">Logos</div>
-              </div>
-            </div>
-            <p class="image-description">Logos</p>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-3 padding-top">
-            <div class="container-image">
-              <img src="http://via.placeholder.com/600x600" class="image">
-              <div class="overlay">
-                <div class="text">Convites</div>
-              </div>
-            </div>
-            <p class="image-description">Convites</p>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-3 padding-top">
-            <div class="container-image">
-              <img src="http://via.placeholder.com/600x600" class="image">
-              <div class="overlay">
-                <div class="text">Banners</div>
-              </div>
-            </div>
-            <p class="image-description">Banners</p>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-3 padding-top">
-            <div class="container-image">
-              <img src="http://via.placeholder.com/600x600" class="image">
-              <div class="overlay">
-                <div class="text">Camisas</div>
-              </div>
-            </div>
-            <p class="image-description">Camisas</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="section-with-bg-dark"></div>
-
-    <div id="whoami" class="container padding">
-      <h2 class="section-title">QUEM SOU EU</h2>
-      <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-          <a href="#">
-            <img class="media-object whoami-image" src="imgs/quem_sou_eu.jpg">
-          </a>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-8 col-lg-8 padding-top">
-          <h4 class="media-heading">Meu nome é Caroline Gomes,</h4>
-          <p class="padding-top">Sou estudante de Biomedicina na faculdade Veiga de Almeida, Rio de Janeiro. Fiz um curso de Design gráfico no SENAC por curiosidade e acabei me apaixonando. Além de ser freelancer, sempre que tenho tempo realizo trabalhos beneficiantes.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="section-with-bg">
-      <div id="portfolio" class="container padding">
-        <h2  class="section-title">PORTFÓLIO</h2>
-        <div class="row">
-          <div class="col-xs-12 col-sm-6 col-md-3 padding-top">
-            <a href="#" target="_blank">
-              <div class="container-image">
-                <img src="http://via.placeholder.com/600x600" alt="Avatar" class="image">
-                <div class="overlay">
-                  <div class="text">Trabalho 1</div>
-                </div>
-              </div>
-            </a>
-            <p class="image-description">Trabalho 1</p>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-3 padding-top">
-            <a href="#" target="_blank">
-              <div class="container-image">
-                <img src="http://via.placeholder.com/600x600" alt="Avatar" class="image">
-                <div class="overlay">
-                  <div class="text">Trabalho 2</div>
-                </div>
-              </div>
-            </a>
-            <p class="image-description">Trabalho 2</p>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-3 padding-top">
-            <a href="#" target="_blank">
-              <div class="container-image">
-                <img src="http://via.placeholder.com/600x600" alt="Avatar" class="image">
-                <div class="overlay">
-                  <div class="text">Trabalho 3</div>
-                </div>
-              </div>
-            </a>
-            <p class="image-description">Trabalho 3</p>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-3 padding-top">
-            <a href="#" target="_blank">
-              <div class="container-image">
-                <img src="http://via.placeholder.com/600x600" alt="Avatar" class="image">
-                <div class="overlay">
-                  <div class="text">Trabalho 4</div>
-                </div>
-              </div>
-            </a>
-            <p class="image-description">Trabalho 4</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="section-with-bg-dark"></div>
-
-    <div id="contact" class="container padding">
-      <h2 class="section-title">CONTATO</h2>
-      <div class="row">
-        <div class="col-xs-12 col-md-5">
-          <div class="row align-center">
-            <p>
-              <a href="https://www.facebook.com/carolinegads" target="_blank" class="icon-link"><img class="icon" src="facebook-app-logo.svg"></a>
-            </p>
-            <p class="contact-phone"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> (21) 99999-9999</p>
-          </div>
-        </div>
-        <div class="col-md-2">
-        </div>
-        <div class="col-xs-12 col-md-5">
-          <form class="form-horizontal form-email" target="hidden_iframe" onsubmit="submitted=true;" action="https://docs.google.com/forms/d/e/1FAIpQLSdSXBoUzdN1OpDERPbGycVs4NB97SoW9kz9WJVqsfTynApYCQ/formResponse?" method="POST" name="gform" id="gform">
-            <div class="form-group">
-              <input id="entry.1012023459" name="entry.1012023459" placeholder="E-Mail" class="form-control form-input" type="email">
-            </div>
-            <div class="form-group">
-              <textarea id="entry.28207251" name="entry.28207251" class="form-control form-input" placeholder="Informe o motivo do seu contato..."></textarea>
-            </div>
-            <div class="form-group btn-send-group">
-              <button type="submit" class="btn btn-send" >Enviar</button>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-
-    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
-
-    <footer class="footer padding">
-      <div class="container">
-        <span class="text-muted footer-text">carolgadsdesign.com.br - Todos os direitos reservados.</span>
-      </div>
-    </footer>
-
-    <script>
-      $(document).on('click', '.menu-option', function(event){
-        event.preventDefault();
-
-        $('html, body').animate({
-          scrollTop: $( $.attr(this, 'href') ).offset().top
-        }, 500);
-      });
-
-      $('#gform').on('submit', function(e) {
-        $('#gform *').fadeOut(2000);
-        $('#gform').prepend('Enviada com sucesso!!!');
-      });
-    </script>
-  </body>
-</html>
+/* cyrillic */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oswald Regular'), local('Oswald-Regular'), url(https://fonts.gstatic.com/s/oswald/v14/DgBpgaYycijFA8v2hNt7MfesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oswald Regular'), local('Oswald-Regular'), url(https://fonts.gstatic.com/s/oswald/v14/peRd8sj511qE2lHtK-QfcPesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oswald Regular'), local('Oswald-Regular'), url(https://fonts.gstatic.com/s/oswald/v14/yg0glPPxXUISnKUejCX4qfesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oswald Regular'), local('Oswald-Regular'), url(https://fonts.gstatic.com/s/oswald/v14/pEobIV_lL25TKBpqVI_a2w.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
